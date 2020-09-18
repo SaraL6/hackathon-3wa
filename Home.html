@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SuperMarket</title>
+</head>
+
+<body>
+  <header>
+    <div class="announcement">
+        <a class="txtannouncement">Découvrez nos Promotions ! Livraison Gratuite*</a>
+    </div>
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-light">
+
+<a class="navbar-brand" href="#!">
+  <img src="logo.png" alt="mdb logo" class="logo">
+</a>
+
+<!-- Collapse button -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav1"
+  aria-controls="basicExampleNav1" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+
+<!-- Searchbar -->
+
+<!-- Breadcrumbs -->
+
+<!-- Searchbar -->
+<div class="collapse navbar-collapse" id="basicExampleNav1">
+   
+    <form class="navbar-form navbar-right hidden-sm hidden-md hidden-xs" role="search" action="/" method="GET">
+        <div class="input-group">
+        <input type="text" class="form-control" placeholder="Cherchez..."/>
+        <span class="input-group-btn">
+          <button class="btn btn-success " type="button"><i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </span>
+        </div>
+    </form>
+
+  <!-- Right -->
+  <ul class="navbar-nav ml-auto">
+  
+    <li class="nav-item dropdown">
+      <button href="#!" class="btn dropdown-toggle"type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Se connecter
+      </button>
+      <div class="dropdown-menu ">
+       <!-- Default form login -->
+<form class="text-center border border-light p-4  formsignin" action="#!">
+
+<p class="h4 mb-4 pr-4 pl-4">Se connecter</p>
+
+<!-- Email -->
+<input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+<!-- Password -->
+<input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Mot de Passe">
+
+<div class="d-flex ">
+  
+  
+  <div>
+      <!-- Forgot password -->
+      <a href="">Mot de passe oublié?</a>
+  </div>
+</div>
+
+<!-- Sign in button -->
+<button class="btn btn-success signinbtn btn-block my-4" type="submit">Se connecter</button>
+
+<!-- Register -->
+<p>Pas un membre?
+  <a href="">Créer un compte</a>
+</p>
+
+<!-- Social login -->
+<p>ou connectez-vous avec:</p>
+
+<a href="#" class="mx-2" role="button"><i class="fa fa-facebook-f light-blue-text"></i></a>
+<a href="#" class="mx-2" role="button"><i class="fa fa-google light-blue-text"></i></a>
+
+</form>
+<!-- Default form login -->
+      <div>
+  
+    <li class="nav-item">
+        <a href="#!" class="nav-link cart navbar-link-2 waves-effect">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </a>
+      
+      </li>
+    
+  </ul>
+ 
+</div>
+<!-- Links -->
+
+</nav>
+<!-- Navbar -->
+</header>
+        
+    <main>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 image-slide" src="Senior-Man-Receiving-Groceries.jpg" alt="First slide">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Lutte contre Covid-19</h1>
+                <h5>Nous vous livrons là où vous êtes</h5>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 image-slide" src="104445821-Shipt_Cart.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 image-slide" src="online-shopping-groceries-1068x713.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    <div id="consulter">
+
+    <h2 id="titre">Vos magasins à portée de main, consultez-les!</h2>
+
+    <div class="supermarchés">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <article class="magasin">
+                    <a href=""><img src="marjane.jpg" id="marjane" alt="logo-marjane" class="logo-super"></a>
+              </div>
+              <div class="col-sm">
+                <article class="magasin">
+                    <a href=""><img src="aswak-salam logo.jpg" alt="logo-Aswaksalam" class="logo-super"></a>
+              </div>
+              <div class="col-sm">
+                <article class="magasin">
+                    <a href=""><img src="carrefour-market logo.jpg" alt="logo-Carrefour" class="logo-super"></a>
+              </div>
+              <article class="magasin">
+                <a href=""><img src="logobim.png" alt="logo-Bim" class="logo-super"></a>
+            </div>
+          </div>
+
+        <!-- <article class="magasin">
+            <a href=""><img src="marjane.jpg" id="marjane" alt="logo-marjane" class="logo-super"></a><br>
+            
+        </article>
+        <article class="magasin">
+            <a href=""><img src="aswak-salam logo.jpg" alt="logo-Aswaksalam" class="logo-super"></a><br>
+            
+        </article>
+        <article class="magasin">
+            <a href=""><img src="carrefour-market logo.jpg" alt="logo-Carrefour" class="logo-super"></a><br>
+            
+        </article>
+        <article class="magasin">
+            <a href=""><img src="logobim.png" alt="logo-Bim" class="logo-super"></a><br>
+            
+        </article> -->
+    </div>
+</div>
+<div id="nouveautés">
+
+    
+
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-10 col-md-4 col-lg-4 ">
+                <h2><span>Le Nouveau</span></h2>
+            <img src="SANYTOL.jpg" class="images-nouveautés">
+            <h3>SANYTOL</h3>
+            <p>Gel de mains désinfectant - Thé vert <br>
+            <strong>20 dhs</strong></p>
+            <button id="but1-2" class="but">Voir ce produit</button>
+              </div>
+              <div class="col-sm-10 col-md-4 col-lg-4">
+                <h2><span>Le plus demandé</span></h2>
+            <img src="masques-chirurgicaux-50-pieces.jpg" class="images-nouveautés">
+            <h3>Masques chirurgicaux</h3>
+            <p>Masques chirurgicaux à une usage unique <br>
+            <strong>15 dhs</strong></p>
+            <button id="but1-2" class="but">Voir ce produit</button>
+              </div>
+              <div class="col-sm-10 col-md-4 col-lg-4">
+                <h2><span>Le bon plan</span></h2>
+            <img src="pack-protections-professionnelles-covid-19.jpg" class="images-nouveautés">
+            <h3>Pack de protection Covid-19</h3>
+            <p>Pack de protection avec : 50 Masques - 40 Lingettes - 1 visière<br>
+               
+            <strong>50 dhs</strong></p>
+            <button class="but" >Voir ce produit</button>
+              </div>
+            </div>
+          </div>
+          
+
+          </div>
+          <div id="avis">
+              <h2>Votre avis nous intrésse</h2>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-10 col-md-4 col-lg-4">
+                      <img src="ahmed.jpg" alt="" class="guys">
+                    <h5>Ahmed B.</h5>
+                    <p>Mon âge et mon état de santé ne me permetent pas de sortir, ce service m'a beaucoup aidé.</p>
+                    <div class="stars">
+                        <i class="fa fa-star gold"></i>
+                        <i class="fa fa-star gold"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="col-sm-10 col-md-4 col-lg-4">
+                      <img src="Evariste(1).jpg" alt="" class="guys">
+                    <h5>Evariste K.</h5>
+                    <p>Je suis occupé vu les horaires de travail serrés, l'idée est superbe.</p>
+                    <div class="stars">
+                        <i class="fa fa-star gold"></i>
+                        <i class="fa fa-star gold"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" id="blackstar"></i>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-10 col-md-4 col-lg-4">
+                      <img src="Fatna.jpg" alt="" class="guys">
+                    <h5>Fatna R.</h5>
+                    <p>Je suis agoraphobe, je ne sors pas, j'en avais vraiment besoin !!!</p>
+                    <div class="stars">
+                        <i class="fa fa-star gold"></i>
+                        <i class="fa fa-star gold"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" id="blackstar"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        
+</main>
+<footer>
+  <!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5">
+
+<div class="main">
+<div class="container">
+
+  <!-- Grid row-->
+  <div class="row py-4 d-flex align-items-center">
+
+    <!-- Grid column -->
+    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+      <h6 class="mb-0">Suivez-nous sur les réseaux sociaux!</h6>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+      <!-- Facebook -->
+      <a href="#" class="fa fa-facebook "></a>
+
+      <!-- Twitter -->
+      <a href="#" class="fa fa-twitter"></a>
+
+      <!-- Google +-->
+      <a href="#" class="fa fa-google"></a>
+
+      <!--Linkedin -->
+      <a href="#" class="fa fa-linkedin"></a>
+
+
+    </div>
+    <!-- Grid column -->
+    
+
+  </div>
+  <!-- Grid row-->
+
+</div>
+</div>
+
+<!-- Footer Links -->
+<div class="container text-center text-md-left mt-5">
+
+<!-- Grid row -->
+<div class="row mt-3 dark-grey-text">
+
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+    <!-- Content -->
+    <img src="logo.png" alt="" class="footerlogo">
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+    <!-- Links -->
+    <h6 class="text-uppercase font-weight-bold">Supermarchés</h6>
+    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+    <p>
+      <a class="dark-grey-text links" href="#!">Marjane</a>
+    </p>
+    <p>
+      <a class="dark-grey-text links" href="#!">Carrefour</a>
+    </p>
+    <p>
+      <a class="dark-grey-text links" href="#!">Carrefour Gourmet</a>
+    </p>
+    <p>
+      <a class="dark-grey-text links" href="#!">Asswak Assalam</a>
+    </p>
+    <p>
+      <a class="dark-grey-text links" href="#!">BIM</a>
+    </p>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+    <!-- Links -->
+    <h6 class="text-uppercase font-weight-bold">Lien utiles</h6>
+    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+    <p>
+      <a class="dark-grey-text links" href="#!">Votre compte</a>
+    </p>
+    <p>
+      <a class="dark-grey-text links" href="#!">Devenez un partenaire</a>
+    </p>
+    <p>
+      <a class="dark-grey-text links" href="#!">Taux de livraison</a>
+    </p>
+    <p>
+      <a class="dark-grey-text links" href="#!">Aide</a>
+    </p>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 contact">
+
+    <!-- Links -->
+    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+    <div >
+    <p>
+      <i class="fa fa-home "></i>New York, NY 10012, US</p>
+    <p>
+      <i class="fa fa-envelope mr-3"></i>info@example.com</p>
+    <p>
+      <i class="fa fa-phone mr-3"></i>+ 01 234 567 88</p>
+    <p>
+      <i class="fa fa-print mr-3"></i>+ 01 234 567 89</p>
+  </div>
+  </div>
+
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+</div>
+<!-- Footer Links -->
+
+<!-- Copyright -->
+<div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+<a class="dark-grey-text links" href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+</div>
+<!-- Copyright -->
+
+</footer>
+
+   
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

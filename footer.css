@@ -1,0 +1,66 @@
+.links{
+    text-decoration: none!important;
+    color: black;
+}
+
+.links:hover{
+    color: #4AAE34;
+}
+.main{
+    background-color: #4AAE34;
+}
+.footerlogo{
+    height:200px;
+    width: 250px;
+}
+
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+
+ .container .contact .fa{
+      font-size: 20px;
+      padding: 0px;
+      color:#4AAE34;
+ }
+ .container.align{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+  }
+
